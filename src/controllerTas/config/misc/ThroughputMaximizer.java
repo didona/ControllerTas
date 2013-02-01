@@ -1,9 +1,11 @@
-package controllerTas.controller;
+package controllerTas.config.misc;
 
 import Tas2.core.ModelResult;
 import Tas2.core.environment.DSTMScenarioTas2;
 import Tas2.exception.Tas2Exception;
 import Tas2.core.Tas2;
+import controllerTas.config.misc.DSTMScenarioFactory;
+import controllerTas.config.misc.Scale;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
@@ -30,7 +32,6 @@ public class ThroughputMaximizer {
    }
 
    public Scale computeMaxThroughputScale(DSTMScenarioTas2 scenario) throws Tas2Exception {
-
       ModelResult result;
       Scale optScale = null, tempScale;
       double maxTh = 0, tempTh;

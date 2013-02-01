@@ -3,9 +3,11 @@
     minNumNodes="2"
     maxNumNodes="10"
     minNumThreads="2"
-    maxNumThreads="8"
+    maxNumThreads="10"
     initNumNodes="2"
     initNumThreads="2"/>
 <PlatformConfig
     numCores="8"/>
+<GnuplotConfig
+    exec="/Applications/Gnuplot.app/Contents/Resources/bin/gnuplot"/>
 </TasControllerConfiguration>

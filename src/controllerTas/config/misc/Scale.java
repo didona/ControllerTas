@@ -1,4 +1,4 @@
-package controllerTas.controller;
+package controllerTas.config.misc;
 
 /**
  * @author Diego Didona, didona@gsd.inesc-id.pt

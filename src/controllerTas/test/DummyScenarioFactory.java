@@ -1,22 +1,28 @@
 package controllerTas.test;
 
 import Tas2.core.ModelResult;
+import Tas2.core.Tas2;
 import Tas2.core.environment.DSTMScenarioTas2;
 import Tas2.core.environment.WorkParams;
-import Tas2.core.Tas2;
 import Tas2.exception.Tas2Exception;
 import Tas2.physicalModel.cpunet.cpu.CpuServiceTimes;
 import Tas2.physicalModel.cpunet.cpu.two.CpuServiceTimes2Impl;
 import Tas2.physicalModel.cpunet.net.queue.NetServiceTimes;
 import Tas2.physicalModel.cpunet.net.tas.FixedRttServiceTimes;
+import controllerTas.config.misc.DSTMScenarioFactory;
+import controllerTas.config.misc.PublishAttributeException;
+import eu.cloudtm.wpm.logService.remote.events.PublishAttribute;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+
+import java.util.HashMap;
+import java.util.Set;
 
 /**
  * @author Diego Didona, didona@gsd.inesc-id.pt
  *         Date: 31/01/13
  */
-public class DummyScenarioFactory {
+public class DummyScenarioFactory extends DSTMScenarioFactory {
 
    private static final Log log = LogFactory.getLog(DummyScenarioFactory.class);
 
@@ -24,13 +30,18 @@ public class DummyScenarioFactory {
       DSTMScenarioTas2 scenario = buildScenario();
       Tas2 tas = new Tas2();
       ModelResult result = tas.solve(scenario);
-      log.trace("Invoked tas "+result.getMetrics().getThroughput());
+      log.trace("Invoked tas " + result.getMetrics().getThroughput());
 
    }
 
+   @Override
+   public DSTMScenarioTas2 buildScenario(Set<HashMap<String, PublishAttribute>> jmx, Set<HashMap<String, PublishAttribute>> mem, double timeWindow, double threads) throws PublishAttributeException, Tas2Exception {
+      return buildScenario();
+   }
+
    public DSTMScenarioTas2 buildScenario() throws Tas2Exception {
-    DSTMScenarioTas2 scenario = new DSTMScenarioTas2(buildCpuServiceTimes(),buildNetServiceTimes(),buildWorkloadParams());
-     log.warn(scenario.toString());
+      DSTMScenarioTas2 scenario = new DSTMScenarioTas2(buildCpuServiceTimes(), buildNetServiceTimes(), buildWorkloadParams());
+      log.warn(scenario.toString());
       return scenario;
    }
 

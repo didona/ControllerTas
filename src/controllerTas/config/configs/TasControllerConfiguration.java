@@ -8,6 +8,15 @@ public class TasControllerConfiguration {
 
    private PlatformConfig platformConfig;
    private ScaleConfig scaleConfig;
+   private GnuplotConfig gnuplotConfig;
+
+   public GnuplotConfig getGnuplotConfig() {
+      return gnuplotConfig;
+   }
+
+   public void setGnuplotConfig(GnuplotConfig gnuplotConfig) {
+      this.gnuplotConfig = gnuplotConfig;
+   }
 
    public PlatformConfig getPlatformConfig() {
       return platformConfig;

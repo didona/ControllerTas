@@ -1,4 +1,4 @@
-package controllerTas.controller;
+package controllerTas.config.misc;
 
 import controllerTas.config.configs.TasControllerConfiguration;
 
