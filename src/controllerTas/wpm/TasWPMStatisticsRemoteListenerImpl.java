@@ -39,6 +39,10 @@ public class TasWPMStatisticsRemoteListenerImpl implements
    @Override
    public void onNewPerSubscriptionStatistics(PublishStatisticsEvent event)
            throws RemoteException {
+      if(!controller.canProcessNewData())    {
+         log.trace("Masked interrupt. The Controller is still analyzing last data");
+         return;
+      }
       Set<String> ips = event.getIps();
       log.trace("Received statistics from wpm instances " + ips.toString());
       Set<HashMap<String, PublishAttribute>> jmx = new HashSet<HashMap<String, PublishAttribute>>();

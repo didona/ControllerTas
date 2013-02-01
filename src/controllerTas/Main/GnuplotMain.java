@@ -5,10 +5,6 @@ import controllerTas.config.configs.TasControllerConfiguration;
 import controllerTas.controller.TasController;
 import org.apache.log4j.PropertyConfigurator;
 
-/**
- * @author Diego Didona, didona@gsd.inesc-id.pt
- *         Date: 01/02/13
- */
 public class GnuplotMain {
 
    public static void main(String args[]) throws Exception {

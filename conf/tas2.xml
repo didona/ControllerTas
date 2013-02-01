@@ -39,7 +39,7 @@
 	pathToData="conf/correction.csv"
 	targetFeature="Correction"/>
 <SolverFactoryConfig
-        solverType="FIXED_RTT"/>
+        solverType="CUBIST_TAS"/>
     <!--IterativeCubistSolverConfig
             minRtt="4e5"
             maxRtt="1e8"
