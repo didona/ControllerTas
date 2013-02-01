@@ -1,0 +1,11 @@
+<TasControllerConfiguration>
+<ScaleConfig
+    minNumNodes="2"
+    maxNumNodes="10"
+    minNumThreads="2"
+    maxNumThreads="8"
+    initNumNodes="2"
+    initNumThreads="2"/>
+<PlatformConfig
+    numCores="8"/>
+</TasControllerConfiguration>

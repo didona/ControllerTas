@@ -1,0 +1,65 @@
+<Tas2Configuration>
+    <CubistConfig
+            minThreads="1.0"
+            maxThreads="16.0"
+            stepThreads="1"   
+	    minNodes="2.0"
+            maxNodes="10.0"
+	    stepNodes="1"
+            minReads="5343"
+            maxReads="5343"
+            minWrites="4"
+            maxWrites="13"
+	    minWarehouses="17"
+            maxWarehouses="17"
+            pathToCubist="lib/cubist/cubist"
+            pathToOracle="lib/cubist/oracle"
+            pathToQueryData="conf/"
+            pathToData="conf/pedroCub.csv"
+            targetFeature="tasRtt"
+            convergenceThreshold="5e-2"
+            solvingMethod="BINARY_SEARCH">
+        <IterativeRttGeneratorConfig minRtt="15e5" maxRtt="25e6" stepRtt="2e5"/>
+        <BinaryRttGeneratorConfig minRtt="15e5" maxRtt="25e6"/>
+        <RecursiveRttGeneratorConfig minRtt="15e5" maxIterations="50"/>
+        <MinimalErrorCubistSolverConfig convex="false"/>           
+    </CubistConfig>
+<CorrectionConfiguration
+	threadSet="2,8,7,6,5,4"
+	nodeSet="2,7"
+	minReads="5343" 
+	maxReads="5343"
+	minWrites="4" 
+	maxWrites="4" 
+	minWarehouses="17"
+	maxWarehouses="17" stepWarehouses="1"
+	pathToCubist="lib/cubist/cubist"
+	pathToOracle="lib/cubist/oracle"
+	pathToQueryData="conf/"
+	pathToData="conf/correction.csv"
+	targetFeature="Correction"/>
+    <SolverFactoryConfig
+        solverType="CUBIST_TAS"/>
+    <!--IterativeCubistSolverConfig
+            minRtt="4e5"
+            maxRtt="1e8"
+            stepRtt="5e4"/-->
+    <QueueFactoryConfig/>    
+    <ClosedSolverConfig
+            debug="true"
+            cutCpuU="1"
+	    validateUnstable="true"
+            convergenceThreshold="1e-2"
+            recursionIteration="50"
+            solvingMethod="ITERATIVE">
+            <IterativeLambdaGeneratorConfig initLambda="1" maxLambda="30000" stepLambda="10"/>
+            <BinaryLambdaGeneratorConfig minLambda="1" maxLambda="30000"/>
+            <RecursiveLambdaGeneratorConfig minLambda="1" maxIterations="50"/>
+            </ClosedSolverConfig>
+    <OpenSolverConfig
+            debug="true"
+            convergenceThreshold="1e-2"/>            
+    <ProbabilityFactoryConfig
+            binarySearch="false"
+            initialConflict="false"/>
+</Tas2Configuration>
