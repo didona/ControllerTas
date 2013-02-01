@@ -1,6 +1,6 @@
-package controllerTas.config.misc;
+package controllerTas.actions.gnuplot;
 
-import controllerTas.config.misc.KPI;
+import controllerTas.common.KPI;
 
 import java.util.Set;
 

@@ -1,6 +1,8 @@
-package controllerTas.config.misc;
+package controllerTas.actions.gnuplot;
 
 import controllerTas.config.configs.GnuplotConfig;
+import controllerTas.common.KPI;
+import controllerTas.common.Scale;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 

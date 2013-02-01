@@ -1,7 +1,7 @@
 package controllerTas.test;
 
 import Tas2.exception.Tas2Exception;
-import controllerTas.config.misc.ThroughputMaximizer;
+import controllerTas.actions.ThroughputMaximizer;
 import org.apache.log4j.PropertyConfigurator;
 
 /**

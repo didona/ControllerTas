@@ -1,6 +1,4 @@
-package controllerTas.config.misc;
-
-import controllerTas.config.misc.Scale;
+package controllerTas.common;
 
 /**
  * @author Diego Didona, didona@gsd.inesc-id.pt

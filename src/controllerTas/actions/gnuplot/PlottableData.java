@@ -1,4 +1,4 @@
-package controllerTas.config.misc;
+package controllerTas.actions.gnuplot;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -6,7 +6,6 @@ import org.apache.commons.logging.LogFactory;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.SortedSet;
-import java.util.TreeSet;
 
 /**
  * @author Diego Didona, didona@gsd.inesc-id.pt

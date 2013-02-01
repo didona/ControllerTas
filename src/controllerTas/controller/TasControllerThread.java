@@ -1,4 +1,4 @@
-package controllerTas.config.misc;
+package controllerTas.controller;
 
 import controllerTas.config.configs.TasControllerConfiguration;
 
@@ -24,6 +24,8 @@ public class TasControllerThread extends Thread {
    public void run() {
       try {
          TasController tasController = new TasController(config);
+         while (true) {
+         }
       } catch (RemoteException e) {
          e.printStackTrace();
          System.exit(-1);

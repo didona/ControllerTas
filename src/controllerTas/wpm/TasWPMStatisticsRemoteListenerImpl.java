@@ -1,9 +1,8 @@
 package controllerTas.wpm;
 
-import Tas2.core.environment.DSTMScenarioTas2;
 import Tas2.exception.Tas2Exception;
-import controllerTas.config.misc.PublishAttributeException;
-import controllerTas.config.misc.TasController;
+import controllerTas.common.PublishAttributeException;
+import controllerTas.controller.TasController;
 import eu.cloudtm.wpm.logService.remote.events.PublishAttribute;
 import eu.cloudtm.wpm.logService.remote.events.PublishMeasurement;
 import eu.cloudtm.wpm.logService.remote.events.PublishStatisticsEvent;

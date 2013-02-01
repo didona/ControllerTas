@@ -2,7 +2,7 @@ package controllerTas.Main;
 
 import controllerTas.config.TasControllerConfigurationFactory;
 import controllerTas.config.configs.TasControllerConfiguration;
-import controllerTas.config.misc.TasControllerThread;
+import controllerTas.controller.TasControllerThread;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.log4j.PropertyConfigurator;

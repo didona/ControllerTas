@@ -1,8 +1,16 @@
-package controllerTas.config.misc;
+package controllerTas.controller;
 
 import Tas2.core.environment.DSTMScenarioTas2;
 import Tas2.exception.Tas2Exception;
+import controllerTas.actions.gnuplot.GnuplotException;
+import controllerTas.actions.ThroughputMaximizer;
+import controllerTas.actions.gnuplot.ThroughputPlotter;
+import controllerTas.actions.WhatIfAnalyzer;
 import controllerTas.config.configs.TasControllerConfiguration;
+import controllerTas.common.DSTMScenarioFactory;
+import controllerTas.common.KPI;
+import controllerTas.common.PublishAttributeException;
+import controllerTas.common.Scale;
 import controllerTas.test.DummyScenarioFactory;
 import controllerTas.wpm.TasWPMViewChangeRemoteListenerImpl;
 import eu.cloudtm.wpm.connector.WPMConnector;
@@ -47,11 +55,8 @@ public class TasController {
       WPMViewChangeRemoteListener viewChange = new TasWPMViewChangeRemoteListenerImpl(connector, this);
       connector.registerViewChangeRemoteListener(viewChange);
       log.info("TasController is set up");
-      while (true) {
-         break;
-      }
-   }
 
+   }
 
    private void init(TasControllerConfiguration config) {
       log.trace("Creating TasController with configuration:\n" + config);
@@ -79,7 +84,7 @@ public class TasController {
             DSTMScenarioTas2 scenario = factory.buildScenario(jmx, mem, timeWindow, state.getCurrentScale().getNumThreads());
             log.trace("BuiltScenario\n" + scenario.toString());
             Set<KPI> kpis = analyzer.computeKPI(scenario);
-            System.out.println("KPIs "+kpis.toString());
+            log.trace("KPIs " + kpis.toString());
             ThroughputPlotter gnu = new ThroughputPlotter(config.getGnuplotConfig());
             gnu.plot(kpis);
             //this.throughputMaximizer.computeMaxThroughputScale(scenario);

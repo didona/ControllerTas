@@ -1,4 +1,4 @@
-package controllerTas.config.misc;
+package controllerTas.common;
 
 
 import Tas2.core.environment.DSTMScenarioTas2;

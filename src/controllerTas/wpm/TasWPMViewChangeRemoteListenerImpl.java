@@ -1,6 +1,6 @@
 package controllerTas.wpm;
 
-import controllerTas.config.misc.TasController;
+import controllerTas.controller.TasController;
 import eu.cloudtm.wpm.connector.WPMConnector;
 import eu.cloudtm.wpm.logService.remote.events.PublishViewChangeEvent;
 import eu.cloudtm.wpm.logService.remote.events.SubscribeEvent;

@@ -2,38 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76a3c44a-d77a-432f-a846-7673743edd5a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllerTas/config/configs/GnuplotConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/GnuplotDataProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/GnuplotException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/GnuplotExec.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllerTas/Main/GnuplotMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/GnuplotScriptCreator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/Gnuplotter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/KPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/LineComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/PlottableData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/PlottableDataLine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/ThroughputPlotter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/WhatIfAnalyzer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/controller/ControllerState.java" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/ControllerState.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/controller/DSTMScenarioFactory.java" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/DSTMScenarioFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/controller/PublishAttributeException.java" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/PublishAttributeException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/controller/Scale.java" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/Scale.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/controller/TasController.java" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/TasController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/controller/TasControllerThread.java" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/TasControllerThread.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/controller/ThroughputMaximizer.java" afterPath="$PROJECT_DIR$/src/controllerTas/config/misc/ThroughputMaximizer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ControllerTas.jar" afterPath="$PROJECT_DIR$/ControllerTas.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/ControllerState.java" afterPath="$PROJECT_DIR$/src/controllerTas/controller/ControllerState.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/DSTMScenarioFactory.java" afterPath="$PROJECT_DIR$/src/controllerTas/common/DSTMScenarioFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/GnuplotDataProducer.java" afterPath="$PROJECT_DIR$/src/controllerTas/actions/gnuplot/GnuplotDataProducer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/GnuplotException.java" afterPath="$PROJECT_DIR$/src/controllerTas/actions/gnuplot/GnuplotException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/GnuplotExec.java" afterPath="$PROJECT_DIR$/src/controllerTas/actions/gnuplot/GnuplotExec.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/GnuplotScriptCreator.java" afterPath="$PROJECT_DIR$/src/controllerTas/actions/gnuplot/GnuplotScriptCreator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/Gnuplotter.java" afterPath="$PROJECT_DIR$/src/controllerTas/actions/gnuplot/Gnuplotter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/KPI.java" afterPath="$PROJECT_DIR$/src/controllerTas/common/KPI.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/LineComparator.java" afterPath="$PROJECT_DIR$/src/controllerTas/actions/gnuplot/LineComparator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/PlottableData.java" afterPath="$PROJECT_DIR$/src/controllerTas/actions/gnuplot/PlottableData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/PlottableDataLine.java" afterPath="$PROJECT_DIR$/src/controllerTas/actions/gnuplot/PlottableDataLine.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/PublishAttributeException.java" afterPath="$PROJECT_DIR$/src/controllerTas/common/PublishAttributeException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/Scale.java" afterPath="$PROJECT_DIR$/src/controllerTas/common/Scale.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/TasController.java" afterPath="$PROJECT_DIR$/src/controllerTas/controller/TasController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/TasControllerThread.java" afterPath="$PROJECT_DIR$/src/controllerTas/controller/TasControllerThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/ThroughputMaximizer.java" afterPath="$PROJECT_DIR$/src/controllerTas/actions/ThroughputMaximizer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/ThroughputPlotter.java" afterPath="$PROJECT_DIR$/src/controllerTas/actions/gnuplot/ThroughputPlotter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controllerTas/config/misc/WhatIfAnalyzer.java" afterPath="$PROJECT_DIR$/src/controllerTas/actions/WhatIfAnalyzer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllerTas/test/DummyScenarioFactory.java" afterPath="$PROJECT_DIR$/src/controllerTas/test/DummyScenarioFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllerTas/Main/GnuplotMain.java" afterPath="$PROJECT_DIR$/src/controllerTas/Main/GnuplotMain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllerTas/Main/Main.java" afterPath="$PROJECT_DIR$/src/controllerTas/Main/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllerTas/test/MaxThTest.java" afterPath="$PROJECT_DIR$/src/controllerTas/test/MaxThTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllerTas/config/configs/TasControllerConfiguration.java" afterPath="$PROJECT_DIR$/src/controllerTas/config/configs/TasControllerConfiguration.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllerTas/wpm/TasWPMStatisticsRemoteListenerImpl.java" afterPath="$PROJECT_DIR$/src/controllerTas/wpm/TasWPMStatisticsRemoteListenerImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllerTas/wpm/TasWPMViewChangeRemoteListenerImpl.java" afterPath="$PROJECT_DIR$/src/controllerTas/wpm/TasWPMViewChangeRemoteListenerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/controller.xml" afterPath="$PROJECT_DIR$/conf/controller.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/log4j.properties" afterPath="$PROJECT_DIR$/conf/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/tas2.xml" afterPath="$PROJECT_DIR$/conf/tas2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ControllerTas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -478,13 +470,13 @@
     <file path="$PROJECT_DIR$/../Workload_Monitor_Connector/build.xml" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359652912246" ignored="false" />
     <file path="$PROJECT_DIR$/../Workload_Monitor_Connector/src/eu/cloudtm/wpm/logService/remote/events/PublishMeasurement.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359652912246" ignored="false" />
     <file path="/DummyTasInvoker.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359653748854" ignored="false" />
-    <file path="/fragment.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359744601251" ignored="false" />
+    <file path="/fragment.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359759751582" ignored="false" />
     <file path="/CubistClosedSolver.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359655177707" ignored="false" />
     <file path="/DummyScenarioFactory.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359744463063" ignored="false" />
     <file path="/DummyScaleOptimizer.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359658661092" ignored="false" />
     <file path="/MaxThTest.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359674552489" ignored="false" />
     <file path="/MinimalErrorCubistSolver.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359659245136" ignored="false" />
-    <file path="/TasController.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359744942586" ignored="false" />
+    <file path="/TasController.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359759271380" ignored="false" />
     <file path="/DSTMScenarioFactory.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359723398025" ignored="false" />
     <file path="/CpuServiceTimes.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359674925010" ignored="false" />
     <file path="/CpuNetPhysicalOpenModel2.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359679996691" ignored="false" />
@@ -594,42 +586,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TasController.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controllerTas/config/misc/TasController.java">
+      <file leaf-file-name="TasController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/TasController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="0" selection-start="4133" selection-end="4133" vertical-scroll-proportion="1.2192982">
+            <state line="48" column="10" selection-start="1811" selection-end="1811" vertical-scroll-proportion="8.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#TasController#0;class#TasController#0" expanded="false" />
                 <element signature="method#init#0;class#TasController#0" expanded="false" />
-                <element signature="method#consumeStats#0;class#TasController#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TasControllerThread.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/TasControllerThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="50" selection-start="655" selection-end="655" vertical-scroll-proportion="0.58550185">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ThroughputPlotter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllerTas/config/misc/ThroughputPlotter.java">
+        <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/gnuplot/ThroughputPlotter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="42" selection-start="921" selection-end="921" vertical-scroll-proportion="-9.153846">
+            <state line="32" column="42" selection-start="993" selection-end="993" vertical-scroll-proportion="-9.153846">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2632#2651#0" expanded="true" />
+                <element signature="e#2704#2723#0" expanded="true" />
                 <element signature="method#line#0;class#ThroughputPlotter#0" expanded="false" />
                 <element signature="method#slashedPath#0;class#ThroughputPlotter#0" expanded="false" />
                 <element signature="method#header#0;class#ThroughputPlotter#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlottableData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllerTas/config/misc/PlottableData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="10" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#430#449#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -647,43 +634,34 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllerTas/Main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="38" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
+            <state line="24" column="38" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="LineComparator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllerTas/config/misc/LineComparator.java">
+        <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/gnuplot/LineComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="15" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
+            <state line="28" column="15" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="WhatIfAnalyzer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllerTas/config/misc/WhatIfAnalyzer.java">
+        <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/WhatIfAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="82" selection-start="2130" selection-end="2130" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlottableDataLine.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllerTas/config/misc/PlottableDataLine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="30" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+            <state line="54" column="82" selection-start="2116" selection-end="2116" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Scale.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllerTas/config/misc/Scale.java">
+        <entry file="file://$PROJECT_DIR$/src/controllerTas/common/Scale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="4" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0">
+            <state line="38" column="4" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -707,8 +685,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/controllerTas/config/configs/TasControllerConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/controllerTas/controller/TasController.java" />
         <option value="$PROJECT_DIR$/src/controllerTas/controller/actions/plots/TCRGnuplotter.java" />
         <option value="$PROJECT_DIR$/src/controllerTas/controller/actions/plots/TasController.java" />
         <option value="$PROJECT_DIR$/src/controllerTas/controller/actions/TasController.java" />
@@ -720,9 +696,11 @@
         <option value="$PROJECT_DIR$/src/controllerTas/config/misc/LineComparator.java" />
         <option value="$PROJECT_DIR$/src/controllerTas/config/misc/TCRGnuplotter.java" />
         <option value="$PROJECT_DIR$/src/controllerTas/config/misc/GnuplotExec.java" />
-        <option value="$PROJECT_DIR$/src/controllerTas/config/misc/TasController.java" />
         <option value="$PROJECT_DIR$/src/controllerTas/config/misc/ThroughputPlotter.java" />
         <option value="$PROJECT_DIR$/src/controllerTas/config/configs/GnuplotConfig.java" />
+        <option value="$PROJECT_DIR$/src/controllerTas/config/misc/TasController.java" />
+        <option value="$PROJECT_DIR$/src/controllerTas/config/misc/TasControllerThread.java" />
+        <option value="$PROJECT_DIR$/src/controllerTas/controller/TasControllerThread.java" />
       </list>
     </option>
   </component>
@@ -787,106 +765,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllerTas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ControllerTas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ControllerTas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllerTas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ControllerTas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ControllerTas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllerTas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ControllerTas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ControllerTas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllerTas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ControllerTas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ControllerTas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllerTas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1089,7 +967,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="22" width="1280" height="709" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1104,8 +982,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.73344654" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2665535" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.73344654" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2665535" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1172,13 +1050,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/test/DummyScenarioFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="29" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllerTas/Main/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="13" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
@@ -1195,9 +1066,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/config/misc/Scale.java">
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/common/Scale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="4" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0">
+        <state line="38" column="4" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1216,13 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/config/misc/WhatIfAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="82" selection-start="2130" selection-end="2130" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$JDK_HOME$/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/Set.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="11" selection-start="393" selection-end="393" vertical-scroll-proportion="0.33333334">
@@ -1230,54 +1094,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/config/misc/PlottableData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="10" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#430#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/config/misc/PlottableDataLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllerTas/Main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="38" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
+        <state line="24" column="38" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/config/misc/LineComparator.java">
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/gnuplot/LineComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="15" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
+        <state line="28" column="15" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/config/misc/GnuplotExec.java">
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/gnuplot/GnuplotExec.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="7" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.4084507">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/config/misc/ThroughputPlotter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="42" selection-start="921" selection-end="921" vertical-scroll-proportion="-9.153846">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2632#2651#0" expanded="true" />
-            <element signature="method#line#0;class#ThroughputPlotter#0" expanded="false" />
-            <element signature="method#slashedPath#0;class#ThroughputPlotter#0" expanded="false" />
-            <element signature="method#header#0;class#ThroughputPlotter#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1288,15 +1122,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/config/misc/TasController.java">
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/gnuplot/PlottableData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="0" selection-start="4133" selection-end="4133" vertical-scroll-proportion="1.2192982">
+        <state line="46" column="10" selection-start="1093" selection-end="1093" vertical-scroll-proportion="1.2825279">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#TasController#0;class#TasController#0" expanded="false" />
-            <element signature="method#init#0;class#TasController#0" expanded="false" />
-            <element signature="method#consumeStats#0;class#TasController#0" expanded="false" />
+            <element signature="e#408#427#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/gnuplot/ThroughputPlotter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="42" selection-start="993" selection-end="993" vertical-scroll-proportion="-9.153846">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2704#2723#0" expanded="true" />
+            <element signature="method#line#0;class#ThroughputPlotter#0" expanded="false" />
+            <element signature="method#slashedPath#0;class#ThroughputPlotter#0" expanded="false" />
+            <element signature="method#header#0;class#ThroughputPlotter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/gnuplot/PlottableDataLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="30" selection-start="174" selection-end="174" vertical-scroll-proportion="0.22304833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/WhatIfAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="82" selection-start="2116" selection-end="2116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/TasController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="10" selection-start="1811" selection-end="1811" vertical-scroll-proportion="8.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#init#0;class#TasController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/TasControllerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="50" selection-start="655" selection-end="655" vertical-scroll-proportion="0.58550185">
+          <folding />
         </state>
       </provider>
     </entry>

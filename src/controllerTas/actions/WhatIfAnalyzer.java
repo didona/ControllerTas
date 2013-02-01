@@ -1,11 +1,11 @@
-package controllerTas.config.misc;
+package controllerTas.actions;
 
 import Tas2.core.ModelResult;
 import Tas2.core.Tas2;
 import Tas2.core.environment.DSTMScenarioTas2;
 import Tas2.exception.Tas2Exception;
-import controllerTas.config.misc.KPI;
-import controllerTas.config.misc.Scale;
+import controllerTas.common.KPI;
+import controllerTas.common.Scale;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 

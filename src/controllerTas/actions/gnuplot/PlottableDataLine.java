@@ -1,4 +1,6 @@
-package controllerTas.config.misc;
+package controllerTas.actions.gnuplot;
+
+import controllerTas.common.Scale;
 
 import java.util.Arrays;
 

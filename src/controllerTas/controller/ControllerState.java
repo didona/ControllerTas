@@ -1,4 +1,6 @@
-package controllerTas.config.misc;
+package controllerTas.controller;
+
+import controllerTas.common.Scale;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

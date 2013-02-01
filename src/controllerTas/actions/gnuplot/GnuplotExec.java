@@ -1,4 +1,4 @@
-package controllerTas.config.misc;
+package controllerTas.actions.gnuplot;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

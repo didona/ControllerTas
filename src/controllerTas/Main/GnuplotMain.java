@@ -2,10 +2,8 @@ package controllerTas.Main;
 
 import controllerTas.config.TasControllerConfigurationFactory;
 import controllerTas.config.configs.TasControllerConfiguration;
-import controllerTas.config.misc.TasController;
+import controllerTas.controller.TasController;
 import org.apache.log4j.PropertyConfigurator;
-
-import java.io.IOException;
 
 /**
  * @author Diego Didona, didona@gsd.inesc-id.pt

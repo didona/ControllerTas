@@ -1,12 +1,6 @@
-package controllerTas.config.misc;
+package controllerTas.actions.gnuplot;
 
 import controllerTas.config.configs.GnuplotConfig;
-import controllerTas.config.misc.Scale;
-
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
 
 /**
  * @author Diego Didona, didona@gsd.inesc-id.pt
