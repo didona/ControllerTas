@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76a3c44a-d77a-432f-a846-7673743edd5a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllerTas/config/configs/DemoTransitoryConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ControllerTas.jar" afterPath="$PROJECT_DIR$/ControllerTas.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllerTas/controller/ControllerState.java" afterPath="$PROJECT_DIR$/src/controllerTas/controller/ControllerState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllerTas/common/DSTMScenarioFactory.java" afterPath="$PROJECT_DIR$/src/controllerTas/common/DSTMScenarioFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllerTas/controller/TasController.java" afterPath="$PROJECT_DIR$/src/controllerTas/controller/TasController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllerTas/config/configs/TasControllerConfiguration.java" afterPath="$PROJECT_DIR$/src/controllerTas/config/configs/TasControllerConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllerTas/wpm/TasWPMStatisticsRemoteListenerImpl.java" afterPath="$PROJECT_DIR$/src/controllerTas/wpm/TasWPMStatisticsRemoteListenerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllerTas/actions/gnuplot/ThroughputPlotter.java" afterPath="$PROJECT_DIR$/src/controllerTas/actions/gnuplot/ThroughputPlotter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="76a3c44a-d77a-432f-a846-7673743edd5a" name="Default" comment="" />
     <ignored path="ControllerTas.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/src/src/Main/Main.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359629441891" ignored="false" />
@@ -978,7 +968,7 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/tryT" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="controllertas" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
