@@ -581,10 +581,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoTransitoryConfig.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DemoTransitoryConfig.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllerTas/config/configs/DemoTransitoryConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="35" selection-start="1977" selection-end="1996" vertical-scroll-proportion="0.4197292">
+            <state line="38" column="36" selection-start="1910" selection-end="1910" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -594,15 +594,6 @@
         <entry file="file://$PROJECT_DIR$/src/controllerTas/config/configs/TasControllerConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="34" column="58" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllerTas/Main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -635,19 +626,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThroughputPlotter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/gnuplot/ThroughputPlotter.java">
+      <file leaf-file-name="MaxThTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllerTas/test/MaxThTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="76" selection-start="3454" selection-end="3454" vertical-scroll-proportion="0.0">
+            <state line="38" column="56" selection-start="1580" selection-end="1580" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DSTMScenarioFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllerTas/common/DSTMScenarioFactory.java">
+      <file leaf-file-name="ThroughputMaximizer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/ThroughputMaximizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="33" selection-start="2455" selection-end="2455" vertical-scroll-proportion="0.0">
+            <state line="52" column="10" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.065476194">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThroughputPlotter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/gnuplot/ThroughputPlotter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="76" selection-start="3454" selection-end="3454" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1234,13 +1234,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/TasControllerThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="32" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllerTas/test/DummyScenarioFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="0" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.0">
@@ -1251,13 +1244,6 @@
     <entry file="file://$PROJECT_DIR$/src/controllerTas/Main/GnuplotMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/test/MaxThTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="3" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1279,13 +1265,6 @@
     <entry file="file://$PROJECT_DIR$/src/controllerTas/Main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="2" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/WhatIfAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="26" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1325,13 +1304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/TasController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="16" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/ControllerState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="28" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.0">
@@ -1341,7 +1313,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllerTas/config/configs/DemoTransitoryConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="35" selection-start="1977" selection-end="1996" vertical-scroll-proportion="0.4197292">
+        <state line="38" column="36" selection-start="1910" selection-end="1910" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/TasController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="16" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/WhatIfAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="26" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/test/MaxThTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="56" selection-start="1580" selection-end="1580" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/ThroughputMaximizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="10" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.065476194">
           <folding />
         </state>
       </provider>
