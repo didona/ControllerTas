@@ -9,5 +9,8 @@
 <PlatformConfig
     numCores="8"/>
 <GnuplotConfig
-    exec="/Applications/Gnuplot.app/Contents/Resources/bin/gnuplot"/>
+    exec="/usr/bin/gnuplot"/>
+<DemoTransitoryConfig
+   transtitoryTime="90"
+   maxPutsForRealXacts="40"/>
 </TasControllerConfiguration>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76a3c44a-d77a-432f-a846-7673743edd5a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllerTas/controller/TasController.java" afterPath="$PROJECT_DIR$/src/controllerTas/controller/TasController.java" />
-    </list>
+    <list default="true" id="76a3c44a-d77a-432f-a846-7673743edd5a" name="Default" comment="" />
     <ignored path="ControllerTas.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/src/src/Main/Main.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359629441891" ignored="false" />
@@ -583,10 +581,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoTransitoryConfig.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DemoTransitoryConfig.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllerTas/config/configs/DemoTransitoryConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="16" selection-start="1977" selection-end="1996" vertical-scroll-proportion="0.0">
+            <state line="40" column="35" selection-start="1977" selection-end="1996" vertical-scroll-proportion="0.4197292">
               <folding />
             </state>
           </provider>
@@ -610,10 +608,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TasController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TasController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/TasController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="16" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.38690478">
+            <state line="53" column="16" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -622,7 +620,7 @@
       <file leaf-file-name="ControllerState.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/ControllerState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="31" selection-start="2999" selection-end="2999" vertical-scroll-proportion="0.0">
+            <state line="45" column="28" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1292,13 +1290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/config/configs/DemoTransitoryConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="16" selection-start="1977" selection-end="1996" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllerTas/common/DSTMScenarioFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="33" selection-start="2455" selection-end="2455" vertical-scroll-proportion="0.0">
@@ -1334,16 +1325,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/ControllerState.java">
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/TasController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="31" selection-start="2999" selection-end="2999" vertical-scroll-proportion="0.0">
+        <state line="53" column="16" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/TasController.java">
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/ControllerState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="16" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.38690478">
+        <state line="45" column="28" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/config/configs/DemoTransitoryConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="35" selection-start="1977" selection-end="1996" vertical-scroll-proportion="0.4197292">
           <folding />
         </state>
       </provider>
