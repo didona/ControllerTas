@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76a3c44a-d77a-432f-a846-7673743edd5a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/tas2.xml" afterPath="$PROJECT_DIR$/conf/tas2.xml" />
-    </list>
+    <list default="true" id="76a3c44a-d77a-432f-a846-7673743edd5a" name="Default" comment="" />
     <ignored path="ControllerTas.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/src/src/Main/Main.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359629441891" ignored="false" />
@@ -574,10 +572,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TasWPMStatisticsRemoteListenerImpl.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TasWPMStatisticsRemoteListenerImpl.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllerTas/wpm/TasWPMStatisticsRemoteListenerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="33" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.0">
+            <state line="43" column="24" selection-start="1513" selection-end="1513" vertical-scroll-proportion="-0.17857143">
               <folding />
             </state>
           </provider>
@@ -592,19 +590,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TasControllerConfiguration.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllerTas/config/configs/TasControllerConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="58" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TasController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/TasController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="16" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.0">
+            <state line="96" column="51" selection-start="4421" selection-end="4421" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -613,7 +602,7 @@
       <file leaf-file-name="ControllerState.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/ControllerState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="28" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.0">
+            <state line="84" column="15" selection-start="2778" selection-end="2778" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -637,19 +626,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThroughputMaximizer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ThroughputMaximizer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/ThroughputMaximizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="10" selection-start="1922" selection-end="1922" vertical-scroll-proportion="-0.083333336">
+            <state line="52" column="10" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThroughputPlotter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/gnuplot/ThroughputPlotter.java">
+      <file leaf-file-name="DummyScenarioFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllerTas/test/DummyScenarioFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="76" selection-start="3454" selection-end="3454" vertical-scroll-proportion="0.0">
+            <state line="46" column="55" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DSTMScenarioFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllerTas/common/DSTMScenarioFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="180" column="18" selection-start="8295" selection-end="8295" vertical-scroll-proportion="-6.1153846">
               <folding />
             </state>
           </provider>
@@ -1236,13 +1234,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/test/DummyScenarioFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllerTas/Main/GnuplotMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
@@ -1271,13 +1262,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/common/DSTMScenarioFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="33" selection-start="2455" selection-end="2455" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllerTas/config/configs/TasControllerConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="58" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.0">
@@ -1299,30 +1283,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/wpm/TasWPMStatisticsRemoteListenerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="33" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/ControllerState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="28" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllerTas/config/configs/DemoTransitoryConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="36" selection-start="1910" selection-end="1910" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/TasController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="16" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1343,7 +1306,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/ThroughputMaximizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="10" selection-start="1922" selection-end="1922" vertical-scroll-proportion="-0.083333336">
+        <state line="52" column="10" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/test/DummyScenarioFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="55" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/common/DSTMScenarioFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="180" column="18" selection-start="8295" selection-end="8295" vertical-scroll-proportion="-6.1153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/ControllerState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="15" selection-start="2778" selection-end="2778" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/TasController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="51" selection-start="4421" selection-end="4421" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/wpm/TasWPMStatisticsRemoteListenerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="24" selection-start="1513" selection-end="1513" vertical-scroll-proportion="-0.17857143">
           <folding />
         </state>
       </provider>
