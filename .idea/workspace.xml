@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76a3c44a-d77a-432f-a846-7673743edd5a" name="Default" comment="" />
+    <list default="true" id="76a3c44a-d77a-432f-a846-7673743edd5a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/tas2.xml" afterPath="$PROJECT_DIR$/conf/tas2.xml" />
+    </list>
     <ignored path="ControllerTas.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/src/src/Main/Main.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359629441891" ignored="false" />
@@ -638,7 +640,7 @@
       <file leaf-file-name="ThroughputMaximizer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/ThroughputMaximizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="10" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.065476194">
+            <state line="52" column="10" selection-start="1922" selection-end="1922" vertical-scroll-proportion="-0.083333336">
               <folding />
             </state>
           </provider>
@@ -1341,7 +1343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllerTas/actions/ThroughputMaximizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="10" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.065476194">
+        <state line="52" column="10" selection-start="1922" selection-end="1922" vertical-scroll-proportion="-0.083333336">
           <folding />
         </state>
       </provider>
