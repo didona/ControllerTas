@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76a3c44a-d77a-432f-a846-7673743edd5a" name="Default" comment="" />
+    <list default="true" id="76a3c44a-d77a-432f-a846-7673743edd5a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllerTas/controller/TasController.java" afterPath="$PROJECT_DIR$/src/controllerTas/controller/TasController.java" />
+    </list>
     <ignored path="ControllerTas.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/src/src/Main/Main.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359629441891" ignored="false" />
@@ -13,7 +15,7 @@
     <file path="$PROJECT_DIR$/src/src/controller/TasController.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359629441891" ignored="false" />
     <file path="$PROJECT_DIR$/src/src/controller/TasControllerThread.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359629441891" ignored="false" />
     <file path="$PROJECT_DIR$/src/src/controller/DSTMScenarioFactory.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359629441891" ignored="false" />
-    <file path="/Dummy.txt" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359760214145" ignored="false" />
+    <file path="/Dummy.txt" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359822067607" ignored="false" />
     <file path="$PROJECT_DIR$/../Infinispan_1.0.0.1/core/src/main/java/org/infinispan/remoting/rpc/RpcManagerImpl.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359643676708" ignored="false" />
     <file path="$PROJECT_DIR$/../Infinispan_1.0.0.1/pom.xml" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359636219941" ignored="false" />
     <file path="$PROJECT_DIR$/../Infinispan_1.0.0.1/core/src/main/java/org/infinispan/interceptors/TopStatsInterceptor.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359643298949" ignored="false" />
@@ -451,7 +453,7 @@
     <file path="/DummyScaleOptimizer.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359658661092" ignored="false" />
     <file path="/MaxThTest.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359674552489" ignored="false" />
     <file path="/MinimalErrorCubistSolver.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359659245136" ignored="false" />
-    <file path="/TasController.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359770560290" ignored="false" />
+    <file path="/TasController.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359822093628" ignored="false" />
     <file path="/DSTMScenarioFactory.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359723398025" ignored="false" />
     <file path="/CpuServiceTimes.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359674925010" ignored="false" />
     <file path="/CpuNetPhysicalOpenModel2.java" changelist="76a3c44a-d77a-432f-a846-7673743edd5a" time="1359679996691" ignored="false" />
@@ -576,10 +578,7 @@
         <entry file="file://$PROJECT_DIR$/src/controllerTas/wpm/TasWPMStatisticsRemoteListenerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="43" column="33" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#trace#0;class#TasWPMStatisticsRemoteListenerImpl#0" expanded="false" />
-                <element signature="method#debug#0;class#TasWPMStatisticsRemoteListenerImpl#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -611,21 +610,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TasController.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TasController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/TasController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="81" selection-start="4122" selection-end="4122" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="53" column="16" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.38690478">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControllerState.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ControllerState.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/ControllerState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="31" selection-start="2999" selection-end="2999" vertical-scroll-proportion="0.23387097">
+            <state line="92" column="31" selection-start="2999" selection-end="2999" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -653,10 +650,7 @@
         <entry file="file://$PROJECT_DIR$/src/controllerTas/common/DSTMScenarioFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="56" column="33" selection-start="2455" selection-end="2455" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3204#3239#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -693,8 +687,8 @@
         <option value="$PROJECT_DIR$/src/controllerTas/config/configs/TransitoryConfig.java" />
         <option value="$PROJECT_DIR$/src/controllerTas/config/configs/DemoTransitoryConfig.java" />
         <option value="$PROJECT_DIR$/src/controllerTas/config/configs/TasControllerConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/controllerTas/controller/TasController.java" />
         <option value="$PROJECT_DIR$/src/controllerTas/controller/ControllerState.java" />
+        <option value="$PROJECT_DIR$/src/controllerTas/controller/TasController.java" />
       </list>
     </option>
   </component>
@@ -729,6 +723,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -956,20 +951,19 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/tryT" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/tryT" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="controllertas" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -984,8 +978,8 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1163,13 +1157,11 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22071308" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1178,6 +1170,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2665535" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22071308" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1308,10 +1302,7 @@
     <entry file="file://$PROJECT_DIR$/src/controllerTas/common/DSTMScenarioFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="33" selection-start="2455" selection-end="2455" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3204#3239#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,25 +1330,20 @@
     <entry file="file://$PROJECT_DIR$/src/controllerTas/wpm/TasWPMStatisticsRemoteListenerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="33" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#trace#0;class#TasWPMStatisticsRemoteListenerImpl#0" expanded="false" />
-            <element signature="method#debug#0;class#TasWPMStatisticsRemoteListenerImpl#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/TasController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="81" selection-start="4122" selection-end="4122" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/ControllerState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="31" selection-start="2999" selection-end="2999" vertical-scroll-proportion="0.23387097">
+        <state line="92" column="31" selection-start="2999" selection-end="2999" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllerTas/controller/TasController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="16" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.38690478">
           <folding />
         </state>
       </provider>

@@ -112,7 +112,12 @@ public class TasController {
             log.trace("Skipping");
          } catch (GnuplotException g) {
             log.warn(g.getMessage());
-         } finally {
+         }
+         catch (Exception e){
+            log.fatal(e.getMessage());
+            log.fatal(Arrays.toString(e.getStackTrace()));
+         }
+         finally {
             log.trace("Resetting maskInterrupt");
             state.atomicSetMaskInterrupt(false);
          }
