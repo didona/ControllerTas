@@ -41,6 +41,7 @@ public class TasWPMStatisticsRemoteListenerImpl implements
            throws RemoteException {
       if(!controller.canProcessNewData())    {
          log.trace("Masked interrupt. The Controller is still analyzing last data");
+         controller.resetState();
          return;
       }
       Set<String> ips = event.getIps();

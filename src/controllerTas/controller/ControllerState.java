@@ -27,6 +27,9 @@ package controllerTas.controller;     /*
  */
 
 import controllerTas.common.Scale;
+import controllerTas.config.configs.DemoTransitoryConfig;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
@@ -38,10 +41,37 @@ public class ControllerState {
 
    private Scale currentScale;
    private AtomicBoolean maskInterrupt = new AtomicBoolean(false);
-   private long lastReset = System.currentTimeMillis();
+   private long lastReset;
+   private long lastInit;
+   private DemoTransitoryConfig demoConfig;
+
+   private final static Log log = LogFactory.getLog(ControllerState.class);
 
    public ControllerState(Scale currentScale) {
       this.currentScale = currentScale;
+      long now = System.currentTimeMillis();
+      lastReset = now;
+      lastInit = now;
+   }
+
+   public ControllerState(Scale currentScale, DemoTransitoryConfig demoConfig) {
+      this.currentScale = currentScale;
+      long now = System.currentTimeMillis();
+      lastReset = now;
+      lastInit = now;
+      this.demoConfig = demoConfig;
+   }
+
+   public boolean testAndSetMaskInterrupt(boolean compare, boolean set) {
+      return maskInterrupt.compareAndSet(compare, set);
+   }
+
+   public void atomicSetMaskInterrupt(boolean set) {
+      this.maskInterrupt.set(set);
+   }
+
+   public void reset() {
+      lastReset = System.currentTimeMillis();
    }
 
    public Scale getCurrentScale() {
@@ -52,10 +82,28 @@ public class ControllerState {
       this.currentScale = currentScale;
    }
 
-   public long getLastTimeWindow(){
+   public long getLastTimeWindow() {
       long now = System.currentTimeMillis();
       long ret = now - lastReset;
       lastReset = now;
       return ret;
+   }
+
+   public boolean isStable(int numPuts) {
+      if (demoConfig == null) {
+         return true;
+      }
+      if (numPuts > demoConfig.getMaxPutsForRealXacts()) {
+         log.info("Number of puts per transaction is too high (" + numPuts + "), thus I think tpcc is still populating");
+         return false;
+      }
+      long elapsed = System.currentTimeMillis() - lastInit;
+      long toElapse = demoConfig.getTranstitoryTime() * 1000 - elapsed;
+      if (toElapse > 0) {
+         log.info("It's too soon to consider the system stable. Wait for " + toElapse / 1000 + " seconds");
+         return false;
+      }
+      return true;
+
    }
 }

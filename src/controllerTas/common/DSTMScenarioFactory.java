@@ -55,8 +55,6 @@ public class DSTMScenarioFactory {
    public DSTMScenarioTas2 buildScenario(Set<HashMap<String, PublishAttribute>> jmx, Set<HashMap<String, PublishAttribute>> mem, double timeWindow, double threads) throws PublishAttributeException, Tas2Exception {
       THREADS = threads;
       TIME_WINDOW = timeWindow;
-      //Set<HashMap<String, PublishAttribute>> JMXattributeSet = toHashMapSet(JMXmeasurements);
-      //Set<HashMap<String, PublishAttribute>> MEMattributeSet = toHashMapSet(MEMmeasurements);
       CpuServiceTimes2Impl cpu = (CpuServiceTimes2Impl) buildCpuServiceTimes(jmx);
       log.trace(cpu);
       WorkParams workParams = buildWorkloadParams(jmx, mem);

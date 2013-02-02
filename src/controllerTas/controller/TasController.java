@@ -86,17 +86,20 @@ public class TasController {
       int initT = config.getScaleConfig().getInitNumThreads();
       Scale initScale = new Scale(initN, initT);
 
-      this.state = new ControllerState(initScale);
+      this.state = new ControllerState(initScale,config.getDemoTransitoryConfig());
 
    }
 
    public void consumeStats(Set<HashMap<String, PublishAttribute>> jmx, Set<HashMap<String, PublishAttribute>> mem) throws PublishAttributeException, Tas2Exception {
 
-      if (maskInterrupt.compareAndSet(false, true)) {
+      if (state.testAndSetMaskInterrupt(false, true)) {
          try {
             double timeWindow = state.getLastTimeWindow() / 1e3;
             log.info("Consuming stats relevant to the last " + timeWindow + " sec");
             DSTMScenarioTas2 scenario = factory.buildScenario(jmx, mem, timeWindow, state.getCurrentScale().getNumThreads());
+            if(!state.isStable((int)scenario.getWorkParams().getWriteOpsPerTx())) {
+               return;
+            }
             log.trace("BuiltScenario\n" + scenario.toString());
             Set<KPI> kpis = analyzer.computeKPI(scenario);
             log.trace("KPIs " + kpis.toString());
@@ -111,7 +114,7 @@ public class TasController {
             log.warn(g.getMessage());
          } finally {
             log.trace("Resetting maskInterrupt");
-            maskInterrupt.set(false);
+            state.atomicSetMaskInterrupt(false);
          }
       } else {
          log.trace("Masked interrupt");
@@ -120,6 +123,10 @@ public class TasController {
 
    public boolean canProcessNewData(){
       return !this.maskInterrupt.get();
+   }
+
+   public void resetState(){
+      this.state.reset();
    }
 
 }

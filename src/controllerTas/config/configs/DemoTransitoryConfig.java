@@ -23,52 +23,36 @@ package controllerTas.config.configs;/*
 
 /**
  * @author Diego Didona, didona@gsd.inesc-id.pt
- *         Date: 01/02/13
+ *         Date: 02/02/13
  */
-public class TasControllerConfiguration {
+/*
+ In this class we have all the information needed to understand when the transitory phase relevant to the population
+ of the cache for the demo is over.
+ We rely on a simple heuristic, to avoid over-engineering: in the TpccPopulation element in the benchmark.xml file
+ in Radargun there's a "batch" attribute, defining the number of item contained in each population-phase transaction.
+ This number is huge (~200) whereas tpcc transactions should no go over 25 puts/transactions
+ Thus, as long as the write per transactions are greater than 50 or a minimum amount ot time has not elapsed,
+ the system will not process collected data.
 
-   private PlatformConfig platformConfig;
-   private ScaleConfig scaleConfig;
-   private GnuplotConfig gnuplotConfig;
-   private DemoTransitoryConfig demoTransitoryConfig;
+ */
+public class DemoTransitoryConfig {
 
-   public DemoTransitoryConfig getDemoTransitoryConfig() {
-      return demoTransitoryConfig;
+   private long transtitoryTime = 400;   //in sec
+   private long maxPutsForRealXacts = 50;
+
+   public long getTranstitoryTime() {
+      return transtitoryTime;
    }
 
-   public void setDemoTransitoryConfig(DemoTransitoryConfig demoTransitoryConfig) {
-      this.demoTransitoryConfig = demoTransitoryConfig;
+   public void setTranstitoryTime(long transtitoryTime) {
+      this.transtitoryTime = transtitoryTime;
    }
 
-   public GnuplotConfig getGnuplotConfig() {
-      return gnuplotConfig;
+   public long getMaxPutsForRealXacts() {
+      return maxPutsForRealXacts;
    }
 
-   public void setGnuplotConfig(GnuplotConfig gnuplotConfig) {
-      this.gnuplotConfig = gnuplotConfig;
-   }
-
-   public PlatformConfig getPlatformConfig() {
-      return platformConfig;
-   }
-
-   public void setPlatformConfig(PlatformConfig platformConfig) {
-      this.platformConfig = platformConfig;
-   }
-
-   public ScaleConfig getScaleConfig() {
-      return scaleConfig;
-   }
-
-   public void setScaleConfig(ScaleConfig scaleConfig) {
-      this.scaleConfig = scaleConfig;
-   }
-
-   @Override
-   public String toString() {
-      return "TasControllerConfiguration{" +
-              "platformConfig=" + platformConfig +
-              ", scaleConfig=" + scaleConfig +
-              '}';
+   public void setMaxPutsForRealXacts(long maxPutsForRealXacts) {
+      this.maxPutsForRealXacts = maxPutsForRealXacts;
    }
 }

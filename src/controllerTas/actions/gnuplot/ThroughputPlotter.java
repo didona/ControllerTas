@@ -89,7 +89,7 @@ public class ThroughputPlotter implements Gnuplotter {
       PlottableData data = new PlottableData(header);
       PlottableDataLine pdl;
       for (KPI kpi : kpis) {
-         pdl = new PlottableDataLine(kpi.getScale(), kpi.getThroughput());
+         pdl = new PlottableDataLine(kpi.getScale(), kpi.getThroughput()*1e9);
          log.trace("Insert " + pdl);
          data.addDataLine(pdl);
       }
