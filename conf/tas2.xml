@@ -22,8 +22,8 @@
             convergenceThreshold="1e-2"
             recursionIteration="50"
             solvingMethod="ITERATIVE">
-            <IterativeLambdaGeneratorConfig initLambda="1" maxLambda="5000" stepLambda="100"/>
-            <BinaryLambdaGeneratorConfig minLambda="1" maxLambda="5000"/>
+            <IterativeLambdaGeneratorConfig initLambda="1" maxLambda="10000" stepLambda="100"/>
+            <BinaryLambdaGeneratorConfig minLambda="1" maxLambda="10000"/>
             <RecursiveLambdaGeneratorConfig minLambda="1" maxIterations="50"/>
             </ClosedSolverConfig>
     <OpenSolverConfig
