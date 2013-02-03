@@ -35,10 +35,7 @@ import controllerTas.common.Scale;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-/**
- * @author Diego Didona, didona@gsd.inesc-id.pt
- *         Date: 31/01/13
- */
+
 public class ThroughputMaximizer {
 
    private int maxNodes;
