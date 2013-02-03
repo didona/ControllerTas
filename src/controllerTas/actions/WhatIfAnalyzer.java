@@ -74,11 +74,11 @@ public class WhatIfAnalyzer {
                throughput = result.getMetrics().getThroughput();
                rtt = result.getMetrics().getPrepareRtt();
                abortP = (1.0D - result.getProbabilities().getPrepareProbability() * result.getProbabilities().getCoherProbability());
-               log.info(tempScale + " throughput = " + throughput * 1e9 + ", rtt = " + rtt + ", abortProb = " + abortP);
+               log.info(tempScale + " throughput = " + throughput * 1e9 + " txs/sec, rtt = " + rtt + " msec, abortProb = " + abortP);
                kpis.add(new KPI(tempScale, throughput, abortP, rtt));
             } catch (Tas2Exception e) {
                log.debug("The model did not converge for " + tempScale);
-               log.info(tempScale+ " throughput = 0.0, rtt = N/A, abortProb = 1.0");
+               log.info(tempScale+ " throughput = 0.0 txs/sec, rtt = N/A, abortProb = 1.0");
             }
          }
       }
