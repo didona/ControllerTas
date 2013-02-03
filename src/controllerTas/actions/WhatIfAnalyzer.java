@@ -78,7 +78,7 @@ public class WhatIfAnalyzer {
                kpis.add(new KPI(tempScale, throughput, abortP, rtt));
             } catch (Tas2Exception e) {
                log.debug("The model did not converge for " + tempScale);
-               log.info("TAS does not converge: throughput = 0, abortProb = 1.0");
+               log.info(tempScale+ " throughput = 0.0, rtt = N/A, abortProb = 1.0");
             }
          }
       }

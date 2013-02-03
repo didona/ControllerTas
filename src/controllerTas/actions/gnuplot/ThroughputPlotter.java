@@ -73,6 +73,7 @@ public class ThroughputPlotter implements Gnuplotter {
       long now = System.currentTimeMillis();
       move(name+".eps", plotPath+""+name+"_" + now + ".eps");
       move(dataPath+""+name+".txt",dataPath+""+name+"_"+now+".txt");
+      log.info("New plot produced and stored in "+plotPath+""+name+"_" + now + ".eps");
    }
 
    private void move(String file, String dest) {
