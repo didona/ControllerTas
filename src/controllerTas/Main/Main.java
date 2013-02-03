@@ -40,6 +40,7 @@ public class Main {
    private static final Log log = LogFactory.getLog(Main.class);
 
    public static void main(String[] args) throws IOException {
+      Thread.currentThread().setName("ControllerTas");
       PropertyConfigurator.configure("conf/log4j.properties");
       TasControllerConfiguration config = TasControllerConfigurationFactory.buildConfiguration("conf/controller.xml", "controllerTas.config.configs.");
       log.info("Startng TasController");

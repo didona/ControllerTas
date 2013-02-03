@@ -35,6 +35,7 @@ public class TasControllerThread extends Thread {
    private TasControllerConfiguration config;
 
    public TasControllerThread(TasControllerConfiguration config) {
+      Thread.currentThread().setName("ControllerTasThread");
       this.config = config;
    }
 
