@@ -32,7 +32,6 @@ import controllerTas.common.DSTMScenarioFactory;
 import controllerTas.common.KPI;
 import controllerTas.common.PublishAttributeException;
 import controllerTas.common.Scale;
-import controllerTas.test.DummyScenarioFactory;
 import controllerTas.wpm.TasWPMViewChangeRemoteListenerImpl;
 import eu.cloudtm.wpm.connector.WPMConnector;
 import eu.cloudtm.wpm.logService.remote.events.PublishAttribute;
@@ -95,7 +94,8 @@ public class TasController {
       if (state.testAndSetMaskInterrupt(false, true)) {
          try {
             double timeWindow = state.getLastTimeWindow() / 1e3;
-            log.info("Consuming stats relevant to the last " + timeWindow + " sec");
+            state.resetTimeWindow();
+            log.info("Analyzing stats relevant to the last " + timeWindow + " sec");
             DSTMScenarioTas2 scenario = factory.buildScenario(jmx, mem, timeWindow, state.getCurrentScale().getNumThreads());
             if(!state.isStable((int)scenario.getWorkParams().getWriteOpsPerTx())) {
                return;
@@ -122,6 +122,7 @@ public class TasController {
             state.atomicSetMaskInterrupt(false);
          }
       } else {
+         state.resetTimeWindow();
          log.trace("Masked interrupt");
       }
    }
@@ -130,8 +131,8 @@ public class TasController {
       return !this.maskInterrupt.get();
    }
 
-   public void resetState(){
-      this.state.reset();
+   public void resetStateTimeWindow(){
+      this.state.resetTimeWindow();
    }
 
 }

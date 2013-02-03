@@ -70,7 +70,7 @@ public class ControllerState {
       this.maskInterrupt.set(set);
    }
 
-   public void reset() {
+   public void resetTimeWindow() {
       lastReset = System.currentTimeMillis();
    }
 
@@ -85,7 +85,6 @@ public class ControllerState {
    public long getLastTimeWindow() {
       long now = System.currentTimeMillis();
       long ret = now - lastReset;
-      lastReset = now;
       return ret;
    }
 
