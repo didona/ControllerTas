@@ -98,6 +98,7 @@ public class TasController {
             log.info("Analyzing stats relevant to the last " + timeWindow + " sec");
             DSTMScenarioTas2 scenario = factory.buildScenario(jmx, mem, timeWindow, state.getCurrentScale().getNumThreads());
             if(!state.isStable((int)scenario.getWorkParams().getWriteOpsPerTx())) {
+               state.resetTimeWindow();
                return;
             }
             log.trace("BuiltScenario\n" + scenario.toString());
