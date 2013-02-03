@@ -39,13 +39,14 @@ public class TasWPMStatisticsRemoteListenerImpl implements
    @Override
    public void onNewPerSubscriptionStatistics(PublishStatisticsEvent event)
            throws RemoteException {
-      if(!controller.canProcessNewData())    {
+      Set<String> ips = event.getIps();
+      log.trace("Received statistics from wpm instances " + ips.toString());
+      if (!controller.canProcessNewData()) {
          log.trace("Masked interrupt. The Controller is still analyzing last data");
          controller.resetStateTimeWindow();
          return;
       }
-      Set<String> ips = event.getIps();
-      log.trace("Received statistics from wpm instances " + ips.toString());
+
       Set<HashMap<String, PublishAttribute>> jmx = new HashSet<HashMap<String, PublishAttribute>>();
       Set<HashMap<String, PublishAttribute>> mem = new HashSet<HashMap<String, PublishAttribute>>();
       for (String ip : ips) {
@@ -72,7 +73,7 @@ public class TasWPMStatisticsRemoteListenerImpl implements
       trace(jmx);
       trace(mem);
       try {
-         this.controller.consumeStats(jmx,mem);
+         this.controller.consumeStats(jmx, mem);
       } catch (PublishAttributeException e) {
          e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
       } catch (Tas2Exception e) {
@@ -81,12 +82,12 @@ public class TasWPMStatisticsRemoteListenerImpl implements
 
    }
 
-   private void trace(Set<HashMap<String, PublishAttribute>> set){
+   private void trace(Set<HashMap<String, PublishAttribute>> set) {
       int i = 0;
-      for(HashMap<String,PublishAttribute> map : set){
-         log.trace("Map "+(++i));
-         for(Entry<String,PublishAttribute> e: map.entrySet()){
-            log.trace(e.getKey()+" - "+e.getValue().getValue());
+      for (HashMap<String, PublishAttribute> map : set) {
+         log.trace("Map " + (++i));
+         for (Entry<String, PublishAttribute> e : map.entrySet()) {
+            log.trace(e.getKey() + " - " + e.getValue().getValue());
          }
       }
    }
