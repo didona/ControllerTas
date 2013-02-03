@@ -12,13 +12,15 @@
         <RecursiveRttGeneratorConfig minRtt="15e5" maxIterations="50"/>
         <MinimalErrorCubistSolverConfig convex="false"/>           
     </CubistConfig>
+    <PhysicalConfig
+	numCores="8"/>
 <SolverFactoryConfig
         solverType="CUBIST_TAS"/>
     <QueueFactoryConfig/>    
     <ClosedSolverConfig
             debug="true"
             cutCpuU="1"
-	    validateUnstable="true"
+	        validateUnstable="true"
             convergenceThreshold="1e-2"
             recursionIteration="50"
             solvingMethod="ITERATIVE">
